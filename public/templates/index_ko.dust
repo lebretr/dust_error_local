@@ -2,9 +2,9 @@
 
 {<body}
     <h1>{@pre type="content" key="greeting"/}</h1>
-	
-	{#messagesHelper}
-		{@pre type="content" key="msgCode"/}
+
+	{#tmessages}
+        {.}
 		<br/>
-	{/messagesHelper}
+	{/tmessages}
 {/body}
